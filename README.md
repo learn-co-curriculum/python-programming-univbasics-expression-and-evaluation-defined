@@ -4,13 +4,13 @@
 
 * Define "Expression"
 * Identify the Parts of an Expression
-* Identify Core Operators in Ruby
+* Identify Core Operators in Python
 * Define "Evaluation"
 
 ## Introduction
 
-So now we've seen that we can have a conversation with Ruby by using the IRB
-program. Conversations, we've seen are the things that result when two
+So now we've seen that we can have a conversation with Python by using the the Python interpreter
+program. Conversations we've seen are the things that result when two
 individuals &mdash; be they human or machine &mdash; communicate expressions to
 one another.
 
@@ -28,9 +28,9 @@ From Wikipedia, with minor revision for simplicity:
 > This process, as for mathematical expressions, is called evaluation.
 
 That's pretty good! That should align with you experience of having a
-conversation with IRB from the previous lesson. Think about `255 / 5` which
-elements of it are _constants_, _variables_, or _operators_? Let's look
-together.
+conversation with the Python interpreter from the previous lesson. Think about
+`255 / 5`. Which elements of it are _constants_, _variables_, or _operators_?
+Let's look together.
 
 ## Identify the Parts of an "Expression"
 
@@ -66,13 +66,13 @@ That symbol means an "operation." Symbols that refer to a little unit of work
 ("opera" comes from the Latin word for "work") are called _operators_. In this
 case `/` is the _operator_ that means "division."
 
-So, this _expression_ will _evaluate_ to `51`, when "spoken" to Ruby in IRB.
-As we see in IRB, Ruby's "return value" to this expression is `51`. That's Ruby
-conversing back with us.
+So, this _expression_ will _evaluate_ to `51`, when "spoken" to Python in the
+Python interpreter. As we see in the Python interpreter, Python's "return value"
+to this expression is `51.0`. That's Python conversing back with us.
 
-The numbers `255` and `5` are bits of data. We'd call them "constants"
+The numbers `255` and `5` are bits of data. We'd call them "constants."
 
-## Identify Core Operators in Ruby
+## Identify Core Operators in Python
 
 Here's a table of other operators and their operations. Fortunately, all these
 operators are the same as their mathematical partner, so you probably know all
